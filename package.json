@@ -1,0 +1,28 @@
+{
+  "name": "maitodo",
+  "description": "A simple todo by mai",
+  "version": "0.0.1",
+  "author": {
+    "name": "mai.yang",
+    "email": "yangwen.yw@gmail.com"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+  "type": "git",
+  "url": "git://github.com/yangwenmai/maitodo.git"
+  },
+  "readme": "#maitodo \n [![Build Status]() \n [![依赖模块状态]()]()",
+  "readmeFilename": "Readme.md",
+  "bugs": {
+    "url": "https://github.com/yangwenmai/maitodo/issues"
+  },
+  "dependencies": {
+    "express": "3.2.6",
+    "ejs": "*",
+    "mongodb": "*",
+    "connect-mongo": "*",
+    "connect-flash": "*"
+  }
+}

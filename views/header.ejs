@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title><%= site_name %></title>
+  <link href="/public/styles/reset.css" rel="stylesheet" type="text/css" />
+  <link href="/public/styles/index/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="page">
+  <div class="header box">
+    <h1><a href="/"><%= site_name %></a></h1>
+    <p><small><%=site_description%></small></p>
+  </div>
+<% if (locals.success) { %>
+  <div ><%= locals.success %></div>
+<% } %>
+<% if (locals.error) { %>
+  <div><%= locals.error %> </div>
+<% } %>
+  <div class="main box">
